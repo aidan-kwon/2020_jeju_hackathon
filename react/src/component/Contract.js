@@ -122,7 +122,7 @@ function Contract() {
                     },
                 ).then((res) => {
                     console.log(res);
-                    setContract(1);
+                    // setContract(1);
                 })
         : 
         axios.post(`https://blog.nopublisher.dev/room/lessee_contract/${id}`,
@@ -141,7 +141,7 @@ function Contract() {
             },
         ).then((res) => {
             console.log(res);
-            setContract(1);
+            // setContract(1);
         })
 }
 
